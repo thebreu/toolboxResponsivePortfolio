@@ -1,0 +1,41 @@
+nav
+  height: auto
+  width: 100vw
+  position: fixed
+  display: flex
+  justify-content: left
+  align-items: center
+  z-index: 1
+
+  .logo
+    height: 80px
+    width: 150px
+    padding: 10px
+    background-image: url('imgs/logo.svg')
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+    animation-name: intro
+    animation-duration: 5s
+    animation-fill-mode: forward
+@keyframes intro
+  0%
+    opacity: 0
+    height: 50vh
+    width: 50vw
+    margin: 25vh 25vw
+  50%
+    opacity: 1
+    height: 50vh
+    width: 50vw
+    margin: 25vh 25vw
+  100%
+    opacity: 1
+    height: 80px
+    width: 150px
+    margin: 0
+    padding: 10px
+@media only screen and (max-width: 600px)
+  nav
+    background: linear-gradient(to right, #222 , #343434)
+    z-index: 1

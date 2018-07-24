@@ -47,7 +47,38 @@ q:before, q:after
 table
 	border-collapse: collapse
 	border-spacing: 0
-//begining of styings
+///////////////////////////////////BEGINING OF STYLING PAGE/////////////////////
+@import section
+@import nav
+@import intro
+@import about.sass
+@import portfolio
+@import contact
+.revealer ,
+	background: linear-gradient(to right, #222 , #343434)
+	height: 400vh
+	width: 100vw
+	opacity: 0
+	position: absolute
+	animation-name: tom
+	animation-duration: 5s
+  animation-fill-mode: forwards
+  transition: all 5s
+
+
+main
+
+	background: linear-gradient(to right, #222 , #343434)
+	color: #e3e3e3
+
+
+@keyframes tom
+  0%
+    opacity: 1
+  80%
+    opacity: 1
+  100%
+    opacity: 0
 
 
 @font-face

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2994px" height="1541px" viewBox="0 0 2994 1541" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>bgi</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="89.9762399%" y1="78.1755934%" x2="8.31034271%" y2="20.1097398%" id="linearGradient-1">
+            <stop stop-color="#00C18F" offset="0%"></stop>
+            <stop stop-color="#1B8E70" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="bgi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M231.839904,306.883068 L2067.75655,2079.80716 L2020.70336,2128.53216 L175.820512,346.949501 C152.559176,363.930747 134.363886,376.158128 118.19366,378.67063 C103.037566,381.025558 77.5821838,389.104431 61.9393951,378.67063 C47.8799062,369.292896 43.3909743,341.396693 33.5482684,341.396693 C27.8905007,341.396693 21.2835121,355.768785 15.3114283,355.43775 C-27.7747118,353.049467 -110.545188,325.236884 -233,272 L-233,-146 L34.9568455,-146 L132.491412,-247 L237.079973,-146 L281.977748,-146 L147,-276.346496 L166.944857,-297 L323.309934,-146 L770,-146 C679.059118,-72.1839256 624.56815,-23.5172589 606.527096,0 C601.918897,6.0069775 609.77227,35.6664838 606.527096,40.4275907 C596.848694,54.6271109 577.212839,62.9787173 571.728695,75.2646738 C569.839921,79.496035 567.81645,83.7532633 565.660623,88.0353397 L2320.64822,1782.80716 L2300.70336,1803.46067 L551.185041,113.970461 C545.850773,122.699252 540.008749,131.518766 533.677519,140.42092 L2286.19477,1832.80716 L2153.70336,1970.00603 L403.515147,279.868921 C402.278399,280.962047 401.03649,282.055779 399.789397,283.150052 C395.244773,287.137775 381.354787,283.421091 358.119437,272 C338.88801,279.57604 325.660492,283.292724 318.436883,283.150052 C305.654012,282.89758 296.029941,268.938083 290.200574,272 C268.313726,283.496223 249.022438,295.388636 231.839904,306.883068 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" filter="url(#filter-2)"></path>
+        <path d="M726.622058,-9.0113223 C719.1994,37.431269 709.523801,70.8007255 697.595261,91.0970473 C679.702451,121.54153 676.395132,180.930283 676.395132,147.540456 C676.395132,125.280572 693.137441,73.0966456 726.622058,-9.0113223 Z" id="Rectangle-2" fill="url(#linearGradient-1)" fill-rule="nonzero" filter="url(#filter-3)" transform="translate(701.508595, 74.208941) rotate(-90.000000) translate(-701.508595, -74.208941) "></path>
+        <path d="M417.880178,276.649751 C431.445448,318.461771 439.508091,352.399944 442.068108,378.46427 C447.03937,429.078246 406.373785,385.150772 406.373785,364.700579 C406.373785,342.440695 410.209249,313.090419 417.880178,276.649751 Z" id="Rectangle-2" fill="url(#linearGradient-1)" fill-rule="nonzero" filter="url(#filter-4)" transform="translate(424.431591, 339.295962) rotate(-36.000000) translate(-424.431591, -339.295962) "></path>
+        <path d="M192.303755,355.084354 C195.379681,370.608207 195.379681,381.198288 192.303755,386.854595 C187.689866,395.339056 175.026951,396.159884 175.026951,386.854595 C175.026951,380.65107 180.785886,370.060989 192.303755,355.084354 Z" id="Rectangle-2" fill="url(#linearGradient-1)" fill-rule="nonzero" filter="url(#filter-5)" transform="translate(184.818825, 374.306826) rotate(-36.000000) translate(-184.818825, -374.306826) "></path>
+    </g>
+</svg>

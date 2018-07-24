@@ -1,0 +1,44 @@
+.intro
+  background-image: url('imgs/elanor.png')
+  background-size: 80vh
+  background-repeat: no-repeat
+  background-position: bottom left
+
+  blockquote p
+    width: 60%
+    text-indent: -0.5em
+    color: #e3e3e3
+    font-size: 1.2em
+    padding-top: 30vh
+    float: right
+
+
+
+@media only screen and (max-width: 1300px)
+  .intro
+    background-size: 60vh
+  .section
+    blockquote p
+      margin-left: 30vw
+      padding-top: 18vh
+      right: 0
+
+      float: none
+@media only screen and (max-width: 800px)
+  .section
+    blockquote p
+      width: 100%
+      padding-top: -20vh
+      margin-left: -10vw
+      float: none
+      width: 400px
+@media only screen and (max-width: 640px)
+  .intro
+    background-image: none
+  .section
+    blockquote p
+      width: 100%
+      padding-top: -20vh
+      padding-left: 50px
+      float: none
+      overflow: wrap

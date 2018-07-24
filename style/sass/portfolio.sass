@@ -1,0 +1,144 @@
+#portfolio
+  p,h3
+    width: 80%
+    margin: 0 auto
+    opacity: 1
+  h3
+    font-family: BebasNeue-Regular
+    padding-bottom: 10px
+    font-size: 1.5em
+    padding-top: 40px
+
+  .left-arrow
+    height: 0px
+    width: 0px
+    position: absolute
+    border-width: 20px 30px 20px 0px
+    border-color: transparent #e3e3e3 transparent transparent
+    border-style: solid
+    z-index: 1
+    left: 30px
+    cursor: pointer
+    display: none
+    top: calc(250vh + 25px)
+
+  .right-arrow
+    height: 0px
+    width: 0px
+    border-width: 20px 0px 20px 30px
+    border-color: transparent transparent transparent #e3e3e3
+    border-style: solid
+    position: absolute
+    z-index: 1
+    right: 30px
+    cursor: pointer
+    top: calc(250vh + 25px)
+
+
+  .section-wrap
+    height: 80%
+    width: 400%
+    overflow: hidden
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: all 2s
+
+
+
+    .art
+      height: 100%
+      width: 100%
+      position: relative
+      display: inline-block
+
+    .part-one
+      height: 100%
+      width: 100%
+      background-image: url('imgs/1.jpg')
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center
+      position: relative
+
+      float: left
+    .description
+      height: 100%
+      width: 100%
+      background-color: rgba(0, 0, 0, 0.9)
+      position: relative
+      display: none
+
+      .scrolling-box
+        height: 80%
+        width: 100%
+        overflow: scroll
+        margin: 0 auto
+        z-index: 2
+
+
+
+    .cta
+      width: 50px
+      height: 50px
+      background-color: #00c18f
+      position: absolute
+      top: 20px
+      right: 20px
+      display: flex
+      justify-content: center
+      align-items: center
+      border-radius: 100%
+      cursor: pointer
+      z-index: 2
+
+      .x1
+        width: 80%
+        height: 5px
+        background-color: #e3e3e3
+        position: absolute
+        transition: all 1s
+      .x2
+        width: 80%
+        height: 5px
+        background-color: #e3e3e3
+        position: absolute
+        transition: all 1s
+        transform: rotate(90deg)
+
+
+
+
+    .part-two
+      height: 100%
+      width: 100%
+      background-image: url('imgs/2.jpg')
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center
+      position: relative
+      float: left
+    .part-three
+      height: 100%
+      width: 100%
+      background-image: url('imgs/3.jpg')
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center
+      position: relative
+      float: left
+    .part-four
+      height: 100%
+      width: 100%
+      background-image: url('imgs/4.jpg')
+      background-size: contain
+      background-repeat: no-repeat
+      background-position: center
+      position: relative
+      float: left
+@media only screen and (max-width: 640px)
+  p
+    font-size: .7em
+  h3
+    font-size: 1em
