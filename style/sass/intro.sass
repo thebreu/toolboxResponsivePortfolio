@@ -1,8 +1,9 @@
+
 .intro
-  background-image: url('imgs/elanor.png')
-  background-size: 80vh
+  background-image: url('imgs/elanor.png'), url('imgs/bgi.svg')
+  background-size: 80vh, cover
   background-repeat: no-repeat
-  background-position: bottom left
+  background-position: bottom left, center
 
   blockquote p
     width: 60%
@@ -16,7 +17,7 @@
 
 @media only screen and (max-width: 1300px)
   .intro
-    background-size: 60vh
+    background-size: 60vh, cover
   .section
     blockquote p
       margin-left: 30vw
@@ -34,7 +35,7 @@
       width: 400px
 @media only screen and (max-width: 640px)
   .intro
-    background-image: none
+    background-image: none, url('imgs/bgi.svg')
   .section
     blockquote p
       width: 100%
